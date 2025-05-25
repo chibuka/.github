@@ -21,12 +21,36 @@ No more "find the missing number in an array" garbage. Build the tools that powe
 - **Learn by doing** - Write code that actually runs and does useful things
 - **No algorithm gymnastics** - If it doesn't exist in production, we don't teach it
 
-## How it works
 
-1. Fork a challenge repo (like building a TCP server)
-2. Follow the step-by-step levels 
-3. Push your code, get instant feedback
-4. Actually understand how software works under the hood
+## CHANGELOG
+
+#### Frontend
+- Built a `progress.tsx` page that dynamically fetches and displays:
+  - User's current level
+  - Challenge name
+  - Username
+- Integrated real-time updates using **Supabase subscriptions** to reflect progress changes instantly.
+
+#### Backend
+- Created a `/fork` endpoint to fork a GitHub repository.
+- Added a `/api/submission_webhook` endpoint to:
+  - Handle webhook payloads from the CI/CD pipeline
+  - Update user progress in Supabase
+
+#### CI/CD Workflow
+- Configured a **GitHub Actions** workflow to:
+  - Run tests for each level
+  - Unlock the next level if tests pass
+  - Notify the backend via a webhook about the user's progress
+
+#### Pending Task
+
+- The `/api/submission_webhook` is **not yet functional** in the CI/CD workflow due to pointing to `localhost`.
+
+**Solution:**  
+Deploy the backend to a public server or use tunneling tools like **Ngrok** or **Localtunnel** to expose it temporarily for testing.
+
+---
 
 **Got ideas for challenges?** Drop them in issues. We're always looking for more real-world systems.
 
