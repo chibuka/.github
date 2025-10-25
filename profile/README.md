@@ -1,4 +1,4 @@
-## We're fed up with leetcode bullsh*t 😤
+## We're fed up with leetcode shenanigans!
 
 Look, we've all been there. Grinding leetcode problems that have ZERO connection to actual software engineering. When's the last time you reversed a binary tree at work? Never? Exactly.
 
@@ -12,14 +12,14 @@ A coding platform that teaches you to build **real sh*t**:
 - Database engines (yes, the actual storage layer)
 - Compilers (how your code becomes machine code)
 
-No more "find the missing number in an array" garbage. Build the tools that power the internet.
+No more "find the missing number in an array in O(N ^1/3)". 
 
 ## Why this exists
 
 - **Real projects** - Build actual systems, not toy problems
 - **Affordable** - We're not trying to buy a yacht off your subscription
 - **Learn by doing** - Write code that actually runs and does useful things
-- **No algorithm gymnastics** - If it doesn't exist in production, we don't teach it
+- **No algorithm gymnastics** - If it doesn't exist in production, we don't include it as a challenge
 
 
 **Got ideas for challenges?** Drop them in issues. We're always looking for more real-world systems.
