@@ -15,6 +15,5 @@ etc...
 
 no more "find the missing number in an array in o(n ^1/3)". 
 
-**got ideas for challenges?** drop them in issues. we're always looking for more real-world systems.
 ---
 *for engineers who want to build real software, not solve riddles* 🛠️
