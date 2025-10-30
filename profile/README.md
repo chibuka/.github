@@ -1,28 +1,20 @@
-## We're fed up with leetcode shenanigans!
+## we're fed up with leetcode shenanigans!
 
-Look, we've all been there. Grinding leetcode problems that have ZERO connection to actual software engineering. When's the last time you reversed a binary tree at work? Never? Exactly.
+we've all been there. grinding leetcode problems that have zero connection to actual software engineering. when's the last time you reversed a binary tree at work? never? exactly.
 
-**The real problem:** Most coding practice platforms teach you to solve puzzles, not build actual software. You end up great at optimizing algorithms nobody uses but terrible at building real systems that people actually need.
+**the real problem:** most coding practice platforms teach you to solve puzzles, not build actual software. you end up great at optimizing algorithms nobody uses but terrible at building real systems that people actually need.
 
-## What we're building instead
+## what we're building instead
 
-A coding platform that teaches you to build **real sh*t**:
-- TCP servers (like the ones powering your favorite apps)
-- HTTP parsers (because the web runs on this stuff)
-- Database engines (yes, the actual storage layer)
-- Compilers (how your code becomes machine code)
+a coding platform that teaches you to build **real software**:
+- tcp servers 
+- http parsers 
+- database engines
+- compilers
+etc...
 
-No more "find the missing number in an array in O(N ^1/3)". 
+no more "find the missing number in an array in o(n ^1/3)". 
 
-## Why this exists
-
-- **Real projects** - Build actual systems, not toy problems
-- **Affordable** - We're not trying to buy a yacht off your subscription
-- **Learn by doing** - Write code that actually runs and does useful things
-- **No algorithm gymnastics** - If it doesn't exist in production, we don't include it as a challenge
-
-
-**Got ideas for challenges?** Drop them in issues. We're always looking for more real-world systems.
-
+**got ideas for challenges?** drop them in issues. we're always looking for more real-world systems.
 ---
-*For engineers who want to build real software, not solve riddles* 🛠️
+*for engineers who want to build real software, not solve riddles* 🛠️
